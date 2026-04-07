@@ -30,7 +30,6 @@ testParameters.forEach(({ coffee, price }) => {
 
     await menuPage.open();
     await menuPage.clickCoffeeCup(coffee);
-
     await menuPage.clickCartLink();
     await cartPage.waitForLoading();
 
